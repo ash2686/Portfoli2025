@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    outline:0;
+    
+    background-color: rgb(53, 51, 51);
+}
+a{
+    text-decoration:  none;
+    color: whitesmoke;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.main-site{
+   width: 100%;
+   height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-site .top-bar{
+    width: 90%;
+    height: 10%;
+    /* background-color: rgb(0, 255, 140); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid yellowgreen;
+}
+
+.top-bar .top-bar-logo{
+    padding-left: 7rem;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .top-bar-menu{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding:4 0 10rem;
+}
+.top-bar .top-bar-menu a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.2em;
+    transition: .5s;
+    padding: 0 -25rem;
+}
+
+.top-bar .top-bar-menu a:hover{
+    color: greenyellow;
+    transform: scale(1.01, 1.01);
+}
+
+
+.main-section{
+    width: 100%;
+    height: 90%;
+    /* background-color:blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-section .right-section{
+    width: 50%;
+    height: 100%;
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px dashed red; */
+}
+
+.main-section .right-section img{
+    width: 450px;
+    height: 550px;
+    /* border-radius: 50%; */
+    /* margin-bottom: 4rem; */
+    /* box-shadow: 5px 5px 20px 2px yellowgreen;
+    box-shadow: -5px -5px 20px 2px yellowgreen; */
+}
+
+.main-section .left-section{
+    width: 50%;
+    height: 100%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px dashed white; */
+    padding: 0 10em;
+}
+
+#name{
+    font-family: "New Rocker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: greenyellow;
+    font-size: 5rem;
+}
+
+span#key{
+    color: rgb(250, 40, 44)
+}
+
+.left-section h2{
+    margin: 2rem 0;
+}
+
+.left-section p{
+    margin: 1rem 0 2rem;
+}
+
+.clickables{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clickables button{
+    padding: 1rem 3rem;
+    color: rgb(53, 51, 51);
+    font-weight: 2rem;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    transition: 1s;
+}
+
+.clickables button:hover{
+    background-color: greenyellow;
+    transform: scale(.9,.9);
+}
+
+.social-media{
+    color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.social-media a{
+    /* font-size: 3.5rem; */
+    color: whitesmoke;
+    font-size: 1.8rem;
+    transition: 1s;
+}
+
+.social-media a:hover{
+    color: greenyellow;
+    transform: scale(1.1,1.1)
+}
+
+
